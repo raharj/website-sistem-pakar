@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konsultasi Jurusan</title>
+    <link rel="stylesheet" href="css.style.css.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Form Konsultasi Siswa</h1>
+
+    <form id="formJurusan">
+
+        <div class="form-group">
+            <label>Nama Siswa</label>
+            <input type="text" id="nama" required>
+        </div>
+
+        <div class="form-group">
+            <label>Nilai Matematika</label>
+            <input type="number" id="mtk">
+        </div>
+
+        <div class="form-group">
+            <label>Nilai Bahasa Inggris</label>
+            <input type="number" id="bing">
+        </div>
+
+        <div class="form-group">
+            <label>Minat Teknologi</label>
+            <select id="teknologi">
+                <option value="ya">Ya</option>
+                <option value="tidak">Tidak</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Suka Desain</label>
+            <select id="desain">
+                <option value="ya">Ya</option>
+                <option value="tidak">Tidak</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn">
+            Proses Prediksi
+        </button>
+
+    </form>
+
+    <div id="hasil"></div>
+
+</div>
+
+<script src="js.script.js.js"></script>
+</body>
+</html>
